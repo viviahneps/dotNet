@@ -1,0 +1,15 @@
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\bin\Debug\net6.0\ProjetoNet6.exe
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\bin\Debug\net6.0\ProjetoNet6.deps.json
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\bin\Debug\net6.0\ProjetoNet6.runtimeconfig.json
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\bin\Debug\net6.0\ProjetoNet6.dll
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\bin\Debug\net6.0\ProjetoNet6.pdb
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.csproj.AssemblyReference.cache
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.AssemblyInfoInputs.cache
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.AssemblyInfo.cs
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.csproj.CoreCompileInputs.cache
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.dll
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\refint\ProjetoNet6.dll
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.pdb
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ProjetoNet6.genruntimeconfig.cache
+C:\Users\vivia\source\repos\SolucaoNet6\ProjetoNet6\obj\Debug\net6.0\ref\ProjetoNet6.dll

@@ -1,0 +1,5 @@
+C:\Users\vivia\source\repos\MinhaSolucao\ProjetoHUm\obj\Debug\net6.0\ProjetoHUm.csproj.AssemblyReference.cache
+C:\Users\vivia\source\repos\MinhaSolucao\ProjetoHUm\obj\Debug\net6.0\ProjetoHUm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vivia\source\repos\MinhaSolucao\ProjetoHUm\obj\Debug\net6.0\ProjetoHUm.AssemblyInfoInputs.cache
+C:\Users\vivia\source\repos\MinhaSolucao\ProjetoHUm\obj\Debug\net6.0\ProjetoHUm.AssemblyInfo.cs
+C:\Users\vivia\source\repos\MinhaSolucao\ProjetoHUm\obj\Debug\net6.0\ProjetoHUm.csproj.CoreCompileInputs.cache
