@@ -90,15 +90,108 @@ Nullable<bool> bol2 = null;
 Nullable<float> flut3 = null;
 int? int1 = null;//usando o operador ?
 */
-int ? b = 100;
-if (b.HasValue)
+
+
+/* Aprendendo Entrada de dados 
+Console.WriteLine("---Entrada de dados-----\n");
+Console.WriteLine("Digite seu nome: \n");
+String nome = Console.ReadLine();
+Console.WriteLine("Digite sua idade: \n");
+int idade = Convert.ToInt16(Console.ReadLine());
+
+Console.WriteLine("-----Dados Digitados------");
+Console.WriteLine($"Seu nome é :{nome}");
+Console.WriteLine($"Sua idade:{idade}");
+
+Console.WriteLine("Confirma essas informações ? S/N");
+char confirma= Convert.ToChar(Console.Read());
+
+if (confirma.Equals('s'))
 {
-    Console.WriteLine($"Valor de B={b}");
+    Console.WriteLine("Obrigada pela confirmação");
 }
 else
 {
-    Console.WriteLine("B é nulo");
+    Console.WriteLine("Não são seus dados!");
 }
 
+Console.ReadKey();
 
 
+
+// Aprendendo operadores
+Console.WriteLine("## Operadores Aritméticos \n");
+Console.WriteLine("Informe o valor de x: ");
+int x = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Informe o valor de y: ");
+int y = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"Soma de X+Y ={x+y}");
+Console.WriteLine($"Soma de X-Y ={x-y}");
+Console.WriteLine($"Soma de X*Y ={x*y}");
+double divisao = (double)x / y;
+Console.WriteLine($"Soma de X/Y ={Math.Round(divisao,2)}");// exibe apenas a quantidade de casas estipuladas
+Console.WriteLine($"Módulo de X/Y ={x % y}");
+
+//funções aritimeticas
+Console.WriteLine("----Funções Aritmeticas----");
+Console.WriteLine($"Raiz de X ={Math.Sqrt(x)}");
+Console.WriteLine($"Potencia de X elev. y ={Math.Pow(x,y)}");
+Console.WriteLine($"Val min. de X e Y ={Math.Min(x,y)}");
+Console.WriteLine($"Val max. de X e Y ={Math.Max(x,y)}");
+Console.WriteLine($"Coseno={Math.Cos(x)}");
+Console.WriteLine($"Seno ={Math.Sin(x)}");
+Console.WriteLine($"Exponecial de X = {Math.Exp(x)}");
+*/
+
+// inferecias de tipos :  var
+
+var numero = "true";
+
+//--------------------------------------Exercicios fase 2 ------------------------------------------
+/*
+string nome ="Paulo";
+int idade = 17;
+double nota = 7.5;
+
+Console.WriteLine($"Aluno {nome} tem {idade} anos e nota {nota}");
+Console.WriteLine($"Aluno {nome}\n");
+Console.WriteLine($"Idade {idade}\n");
+Console.WriteLine($"Nota {nota} \n");
+
+
+Console.WriteLine("Informe três letras: \n");
+Console.WriteLine("Letra 1: \n");
+
+var letter1 = Console.ReadLine();
+Console.ReadKey();
+
+Console.WriteLine("Letra 2: \n");
+var  letter2 = Console.ReadLine();
+Console.ReadKey();
+
+Console.WriteLine("Letra 3: \n");
+var letter3 = Console.ReadLine();  
+Console.WriteLine($"Letras ordem reversa: {letter3},{letter2}, {letter1}");
+
+*/
+Console.WriteLine("Recebendo dois valores: \n");
+Console.WriteLine("Valor 1:");
+
+double val1 = Convert.ToDouble(Console.ReadLine());
+Console.ReadKey();
+
+Console.WriteLine("\n Valor 2:");
+double val2 = Convert.ToDouble(Console.ReadLine());
+
+
+Console.WriteLine($"Soma: {val1+val2}");
+Console.WriteLine($"Subtração: {val1-val2}");
+Console.WriteLine($"Multiplicação: {val1*val2}");
+Console.WriteLine($"Divisão: {val1/ val2}");
+Console.WriteLine($"Modulo: {val1% val2}");
+Console.WriteLine($"Exponencial: {Math.Pow(val1,val2)}");
+
+
+Console.ReadKey();
