@@ -1,4 +1,5 @@
 ﻿/*
+
 Console.WriteLine("Declarando variaveis numericas");
 Console.WriteLine();
 
@@ -89,10 +90,10 @@ Nullable<int> inteiro = null;
 Nullable<bool> bol2 = null;
 Nullable<float> flut3 = null;
 int? int1 = null;//usando o operador ?
-*/
 
 
-/* Aprendendo Entrada de dados 
+
+//Aprendendo Entrada de dados 
 Console.WriteLine("---Entrada de dados-----\n");
 Console.WriteLine("Digite seu nome: \n");
 String nome = Console.ReadLine();
@@ -143,14 +144,14 @@ Console.WriteLine($"Val max. de X e Y ={Math.Max(x,y)}");
 Console.WriteLine($"Coseno={Math.Cos(x)}");
 Console.WriteLine($"Seno ={Math.Sin(x)}");
 Console.WriteLine($"Exponecial de X = {Math.Exp(x)}");
-*/
+
 
 // inferecias de tipos :  var
 
 var numero = "true";
 
 //--------------------------------------Exercicios fase 2 ------------------------------------------
-/*
+
 string nome ="Paulo";
 int idade = 17;
 double nota = 7.5;
@@ -175,7 +176,7 @@ Console.WriteLine("Letra 3: \n");
 var letter3 = Console.ReadLine();  
 Console.WriteLine($"Letras ordem reversa: {letter3},{letter2}, {letter1}");
 
-*/
+
 Console.WriteLine("Recebendo dois valores: \n");
 Console.WriteLine("Valor 1:");
 
@@ -195,3 +196,184 @@ Console.WriteLine($"Exponencial: {Math.Pow(val1,val2)}");
 
 
 Console.ReadKey();
+
+
+//Estrutura de repetição GOTO e Label
+
+int i = 1;
+repetir:
+
+/Console.WriteLine($"i={i}");
+i++;
+if (i <= 10)
+    goto repetir;
+Console.WriteLine("Fim do processamento");
+
+
+for (i=0;i<10; i++)
+{
+    if (i == 5)
+        continue;
+    if (i > 8)
+        break;
+    Console.WriteLine(i);
+}
+Console.WriteLine("Fim do processamento");
+
+//---------------------------Exercicios Aula 57---------------------------------------
+
+
+using System.ComponentModel.Design;
+
+int hum , dois , tres;
+
+Console.WriteLine("Digite tres números\n"+"Primeiro:");
+hum = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("\n Segundo:");
+dois = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("\n Terceiro:");
+tres = Convert.ToInt32(Console.ReadLine());
+
+Console.ReadKey();
+
+Console.WriteLine($"Primeiro Numero:{hum}");
+Console.WriteLine($"Segundo Numero:{dois}");
+Console.WriteLine($"Terceiro Numero:{tres}");
+
+Console.ReadKey();
+
+if (hum > dois)
+{
+    if (hum > tres)
+
+        Console.WriteLine($"O primeiro numero é o maior: {hum}");
+}
+
+else if (dois > hum)
+{
+    if (dois > tres)
+        Console.WriteLine($"O segundo numero é o maior: {dois}");
+
+    else
+    {
+
+        Console.WriteLine($"O terceiro numero é o maior: {tres}");
+    }
+}
+
+
+
+// calculo de raiz da equaçao ax+bx+c
+
+
+using System;
+using System.Text.RegularExpressions;
+
+int a, b, c;
+double delta,x1, x2;
+
+Console.WriteLine("Digite tres números\n" + "Valor de A:");
+a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("\n Valor de B:");
+b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("\n Valor de C:");
+c = Convert.ToInt32(Console.ReadLine());
+
+delta = (Math.Pow(b,2)) - (4 * a * c);
+Console.WriteLine("Calculo Delta: \n");
+Console.WriteLine($"Delta: {delta}  \n");
+
+
+if (delta == 0)
+{
+    Console.WriteLine("As duas raizaes são iguais \n");
+    x1 = -b / (2*a);
+    x2 = x1;
+    Console.WriteLine($"Primera raiz:{x1}  \n");
+    Console.WriteLine($"Segunda raiz:{x2}  \n");
+}
+
+else if (delta > 0)
+{
+    Console.WriteLine("Raizes são reais e diferentes\n");
+    x1 = -(b + Math.Sqrt(delta)) / (2 * a);
+    x2 = -(b - Math.Sqrt(delta)) / (2 * a); ;
+    Console.WriteLine($"Primera raiz:{x1} \n");
+    Console.WriteLine($"Segunda raiz:{x2} \n");
+}
+else
+{
+    Console.WriteLine("As raizes são imaginarias;\n Sem solução");
+}
+
+
+
+//Calculo numeros naturais
+
+int i, soma=0;
+
+Console.WriteLine("Os 10 primeiros numeros naturais são:");
+for (i=1;i<=10;i++)
+{
+ Console.Write($"{i}\t");
+  soma = soma + i;
+}
+Console.WriteLine($"\n A soma dos números é :{ soma}");
+
+
+
+// Tabuada com numero digitado pelo usuário:
+
+int i, num;
+
+do
+{
+    Console.WriteLine("Digite um numero maior que zero:");
+    num = Convert.ToInt16(Console.ReadLine());
+
+    Console.WriteLine($"Tabuado do {num}");
+    if (num > 0)
+    {
+        for (i = 0; i <= 10; i++)
+        {
+            Console.WriteLine($"{num} x {i} ={num * i}");
+
+        }
+    }
+    else
+    {
+    Console.WriteLine("Tabuada somente de numeros  naturais maior que 0.");
+        break;
+    }
+} while (num > 0);
+*/
+
+//Quiz 
+
+    Console.WriteLine("---------Quiz C#-------------------\n");
+
+
+char opcao;
+
+do {
+Console.WriteLine("Qual a instrução para sair de um loop ?");
+Console.WriteLine("a.Quit " + "\n b.Continue" + "\n c.Break" + "\n d.Exit");
+opcao = Convert.ToChar(Console.ReadLine());
+
+if (opcao.Equals('c') || opcao.Equals('C'))
+{
+Console.WriteLine("Parabéns ! Resposta Correta.");
+}
+else
+{
+Console.WriteLine("Eroooou ! Tente novamente...");
+}
+
+  Console.WriteLine("Tecle x para sair");
+
+} while (!(opcao== 'x'));
+
+   
+ 
+
+
